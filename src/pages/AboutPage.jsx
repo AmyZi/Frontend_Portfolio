@@ -74,7 +74,7 @@ const AboutPage = () => {
         <NavigationButtons
           prev="/"
           onPrevClick={handleNavigatePrev}
-          next="/study"
+          next="/work"
           onNextClick={handleNavigateNext}
         />
       </div>

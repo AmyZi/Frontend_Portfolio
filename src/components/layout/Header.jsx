@@ -11,7 +11,7 @@ const Header = () => {
   const navLinks = [
     { title: "Home", path: "/", index: 0 },
     { title: "About", path: "/about", index: 1 },
-    { title: "Study", path: "/study", index: 2 },
+    { title: "Work", path: "/work", index: 2 },
   ];
 
   useEffect(() => {

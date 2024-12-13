@@ -1,7 +1,7 @@
 import React from 'react';
 import NavigationButtons from '../components/layout/NavigationButtons';
 import PurplePortImg from '../assets/PurplePort.jpg';
-import { Github, Linkedin } from 'lucide-react';
+import { Github, Linkedin, Mail} from 'lucide-react';
 
 const WelcomePage = () => {
   return (
@@ -19,7 +19,7 @@ const WelcomePage = () => {
             <Github size={20} strokeWidth={1.5} />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/amina-idris-at-lkin"
             target="_blank"
             rel="noopener noreferrer"
             className="text-neutral-700 hover:text-neutral-900 transform hover:-translate-y-1 transition-all duration-300"
@@ -55,6 +55,20 @@ const WelcomePage = () => {
             <p className="text-xl text-neutral-600">
               Graduate student at Gothenburg University | Frontend Web Developer
             </p>
+
+             {/* Hire Me Button */}
+             <div className="pt-4">
+              <a
+                href="mailto:idrisebiojo@gmail.com"
+                className="inline-flex items-center gap-2 px-6 py-3 
+                  bg-primary-500 text-white rounded-lg
+                  hover:bg-primary-600 transition-colors duration-300
+                  shadow-md hover:shadow-lg"
+              >
+                <Mail size={20} />
+                <span className="font-medium">Hire Me</span>
+              </a>
+            </div>
           </div>
 
           <div className="pt-8">
